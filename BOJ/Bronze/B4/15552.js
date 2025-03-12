@@ -30,3 +30,6 @@ console.log(answer);
 // } catch (error) {
 //     console.error("파일을 읽는 중 오류가 발생했습니다:", error.message);
 // }
+
+
+
