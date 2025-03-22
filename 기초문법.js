@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 console.log('hello');
 console.log('hello', 'world');
 
@@ -41,7 +52,7 @@ const dictionary ={
 };
 
 console.log(dictionary);
-console.log(dictionary['red']);
+console.log(dictionary['red'])
 
 
 
