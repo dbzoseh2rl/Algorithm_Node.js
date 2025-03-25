@@ -7,8 +7,7 @@ const input = require('fs')
     .readFileSync('input.txt')
     .toString()
     .trim()
-    .split('\r\n');
-
+    .split('\r\n')
 const N = parseInt(input[0]); // 첫 번째 줄에서 N을 읽어옵니다.
 
 for (let i = 1; i <= N; i++) {
