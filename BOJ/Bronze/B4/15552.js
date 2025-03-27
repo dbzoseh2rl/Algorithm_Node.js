@@ -1,6 +1,8 @@
 // 제출시
 // let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
-let input = require('fs').readFileSync('input.txt').toString().split('\n');
+
+
+
 // input.txt 기준이 B4안에서 input.txt를 찾음 그래서 오류 계속 떳음;
 
 let max = Number(input[0]);
@@ -12,6 +14,7 @@ for (let i = 1; i <= max; i++) {
 }
 
 console.log(answer);
+
 
 
 // const fs = require('fs');
