@@ -32,3 +32,25 @@ const sumvalue = values.reduce((acc,cur) => acc + cur, 0);
 // reduce는 숫자를 반환해주기 때문에 굳이 parseInt안해도됨
 
 console.log(total - sumvalue);
+
+
+// // 비동기 방식
+// const fs = require('fs').promises;
+
+// async function processFile() {
+//     try {
+//         const data = await fs.readFile('input.txt', 'utf-8');
+//         const input = data.trim().split("\n").map(Number);
+        
+//         const total = input[0];
+//         const values = input.slice(1);
+//         const sumvalue = values.reduce((acc, cur) => acc + cur, 0);
+        
+//         console.log(total - sumvalue);
+//     } catch (err) {
+//         console.error("파일을 읽는 중 오류 발생:", err);
+//     }
+// }
+
+// processFile();
+
