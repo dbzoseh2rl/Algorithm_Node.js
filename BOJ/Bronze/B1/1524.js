@@ -1,10 +1,7 @@
 // const fs = require("fs"); // fs 모듈 추가
 // const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 
-
 const fs = require('fs');
-
-// input.txt 파일에서 입력 읽기
 const input = fs.readFileSync('input.txt', 'utf-8').toString().trim().split('\n');
 
 let index = 0;
