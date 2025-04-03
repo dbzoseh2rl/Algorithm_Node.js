@@ -34,5 +34,8 @@ const sumvalue = values.reduce((acc,cur) => acc + cur, 0);
 
 
 
-
+// 메서드 체이닝 방식 
+const arr = [[1, 2], [3, 4], [5, 6]];
+const result = arr.flatMap(innerArray => innerArray.map(num => num * 2));
+console.log(result); // [2, 4, 6, 8, 10, 12]
 
